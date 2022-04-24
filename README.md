@@ -26,7 +26,7 @@
   click to fork the git into your account
  Click [FORK](https://github.com/Abhiram-Aj/RDX/fork)
 
-5. Now https://heroku.com/deploy?template=https://github.com/Abhiram-Aj/RDX copy this url and change Abhiram-Aj with your github username and click go<br>
+5. Now https://heroku.com/deploy?template=https://github.com/ANU-SER/COSMOS copy this url and change Abhiram-Aj with your github username and click go<br>
 
 
 6.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and massage me 
