@@ -133,7 +133,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('😈 RDX working!')
+            chalk.green.bold('😈 COSMOS IS working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -158,7 +158,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./Database/RDXSTARTED.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
+                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./Database/COSMOSSTARTED.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
                 }
             }
             else {
@@ -180,7 +180,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                     await conn.sendMessage(conn.user.jid, fs.readFileSync("./Database/RDXSTARTED.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
+                     await conn.sendMessage(conn.user.jid, fs.readFileSync("./Database/COSMOSSTARTED.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
                 }
 
             }
@@ -376,7 +376,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ *RDX  ERROR FOUND!* ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ *COSMOS ERROR FOUND!* ~______~*' +
                                     '\n\n*⚠️ ' + error + '*\n\n```Connect owner https://wa.me/qr/CYBN2KFKQTAIN1``` ' 
                                     , MessageType.text);
                             }
